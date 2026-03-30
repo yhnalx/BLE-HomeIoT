@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Bluetooth_IoT" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.Bluetooth_IoT" parent="Base.Theme.Bluetooth_IoT" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Use the wrapper to ensure the logo is centered without stretching -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/homeiot_logo_wrapper</item>
+        <item name="windowSplashScreenBackground">#E0E5EC</item>
+        <item name="postSplashScreenTheme">@style/Theme.Bluetooth_IoT</item>
+    </style>
+</resources>
